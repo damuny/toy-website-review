@@ -27,7 +27,7 @@ resource appServicePlan 'Microsoft.Web/serverfarms@2022-03-01' = {
     name: appServicePlanSkuName
   }
 }
-
+ 
 resource appServiceApp 'Microsoft.Web/sites@2022-03-01' = {
   name: appServiceAppName
   location: location
